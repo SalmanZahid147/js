@@ -1,0 +1,175 @@
+//Q21
+
+//They think of something you could store in a JavaScript Object. 
+//Write a program that creates Objects containing these items.
+
+//code:
+
+
+// // Create an object for a car
+// var car = {
+//     make: "Honda",
+//     model: "Civic",
+//     year: 2022,
+//     color: "black",
+//     hasSunroof: true
+// };
+
+// // Print the object
+// console.log(car);
+
+
+//Q22
+
+//Intentional Error: If you haven’t received an array index error in one of your programs yet, try to make one happen. 
+//Change an index in one of your programs to produce an index error. Make sure you correct the error before closing the program.
+
+//code:
+
+
+// var fruits = ["Apple", "Banana", "Cherry"];
+// console.log(fruits[3]); // This will cause an "IndexError: Array index out of range"
+
+// var fruits = ["Apple", "Banana", "Cherry"];
+
+// // Checking the index before trying to access it
+// if (3 < fruits.length) {
+//     console.log(fruits[3]);
+// } else {
+//     console.log("Index out of range");
+// };
+
+
+//Q23
+
+// Conditional Tests: Write a series of conditional tests. Print a statement describing each test and your prediction for the results of each test. Your code should look something like this:
+
+// let car = 'subaru';
+
+// console.log("Is car == 'subaru'? I predict True.")
+
+// console.log(car == 'subaru')
+
+// • Look closely at your results, and make sure you understand why each line evaluates to True or False.
+
+// • Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
+
+//code:
+
+
+// let car = 'subaru';
+
+// console.log("Is car == 'subaru'? I predict True.");
+// console.log(car == 'subaru');
+
+// console.log("Is car == 'toyota'? I predict False.");
+// console.log(car == 'toyota');
+
+// console.log("Is car === 'subaru'? I predict True.");
+// console.log(car === 'subaru');
+
+// console.log("Is car != 'toyota'? I predict True.");
+// console.log(car != 'toyota');
+
+// console.log("Is car !== 'toyota'? I predict True.");
+// console.log(car !== 'toyota');
+
+// console.log("Is car > 'toyota'? I predict False.");
+// console.log(car > 'toyota');
+
+// console.log("Is car < 'toyota'? I predict True.");
+// console.log(car < 'toyota');
+
+// console.log("Is car >= 'subaru'? I predict True.");
+// console.log(car >= 'subaru');
+
+// console.log("Is car <= 'subaru'? I predict True.");
+// console.log(car <= 'subaru');
+
+// console.log("Is car.length == 6? I predict True.");
+// console.log(car.length == 6);
+
+
+
+//Q24
+
+
+// More Conditional Tests: You don’t have to limit the number of tests you create to 10. If you want to try more comparisons, write more tests. Have at least one True and one False result for each of the following:
+// • Tests for equality and inequality with strings
+
+// • Tests using the lower case function
+
+// • Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
+
+// • Tests using "and" and "or" operators
+
+// • Test whether an item is in a array
+
+// • Test whether an item is not in a array
+
+//code:
+
+
+// let car = 'subaru';
+// let num = 5;
+// let fruits = ['apple', 'banana', 'orange'];
+
+// console.log("Is car == 'subaru'? I predict True.");
+// console.log(car == 'subaru');
+
+// console.log("Is car == 'Subaru'? I predict False.");
+// console.log(car == 'Subaru');
+
+// console.log("Is car.toLowerCase() == 'subaru'? I predict True.");
+// console.log(car.toLowerCase() == 'subaru');
+
+// console.log("Is num == 5? I predict True.");
+// console.log(num == 5);
+
+// console.log("Is num > 4 and num < 6? I predict True.");
+// console.log(num > 4 && num < 6);
+
+// console.log("Is num > 6 or num < 4? I predict False.");
+// console.log(num > 6 || num < 4);
+
+// console.log("Is fruits array contains 'apple'? I predict True.");
+// console.log(fruits.includes('apple'));
+
+// console.log("Is fruits array contains 'mango'? I predict False.");
+// console.log(fruits.includes('mango'));
+
+// console.log("Is fruits array not contains 'mango'? I predict True.");
+// console.log(!fruits.includes('mango'));
+
+
+//Q25
+
+// Alien Colors #1: Imagine an alien was just shot down in a game. Create a variable called alien_color and assign it a value of 'green', 'yellow', or 'red'.
+// • Write an if statement to test whether the alien’s color is green. If it is, print a message that the player just earned 5 points.
+
+// • Write one version of this program that passes the if test and another that fails. (The version that fails will have no output.)
+
+//code:
+
+
+// // Alien Colors #1:
+// // Passing version:
+
+
+// alien_color = 'green'
+// if (alien_color === 'green'){
+//     console.log("The player just earned 5 points.")
+// };
+
+// //Failing version:
+
+// alien_color = 'yellow'
+// if (alien_color === 'green'){
+//     console.log("The player just earned 5 points.")
+// };
+
+
+
+
+
+
